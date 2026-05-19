@@ -62,7 +62,7 @@ static struct net_mgmt_event_callback dhcp_cb;
  * (net_mgmt_event_handler_t attend uint64_t depuis Zephyr 4.x)
  * ================================================================== */
 static void on_wifi_event(struct net_mgmt_event_callback *cb,
-                           uint64_t event,          /* ← uint64_t */
+                           uint64_t event,          
                            struct net_if *iface)
 {
     if (event == NET_EVENT_WIFI_CONNECT_RESULT) {
