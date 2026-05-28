@@ -27,9 +27,9 @@ LOG_MODULE_REGISTER(http_client, LOG_LEVEL_INF);
 /* ==================================================================
  * PARAMÈTRES À ADAPTER AVANT COMPILATION
  * ================================================================== */
-#define WIFI_SSID    "Galaxy A15 AAFB"
-#define WIFI_PSK     "validons"
-#define SERVER_IP    "10.65.42.239"   /* IP de ton PC sur le hotspot */
+#define WIFI_SSID    "a26nguep-hotspot"
+#define WIFI_PSK     "123456789"
+#define SERVER_IP    "10.42.0.1"   /* IP de ton PC sur le hotspot */
 #define SERVER_PORT  8080
 
 
